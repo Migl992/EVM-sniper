@@ -152,6 +152,9 @@ def buy(tokenToBuy, amount):
         print(f"An error occurred: {e}")
 
 def buy_new_listing(amount):
+
+    raise Exception("")
+    
     while True:
         new_events = pair_created_filter.get_new_entries()
         for event in new_events:
