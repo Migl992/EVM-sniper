@@ -31,3 +31,8 @@ This code is built to interact with any UNIv2 fork on any EVM-compatible blockch
 - Web3.py library
 - An EVM wallet
 - Your telegram bot
+
+### How you can run this sniper
+
+You can simply copy and paste and run the code in any python IDE, for example, Jupyter Notebook/Lab, or run it as Python script.
+
