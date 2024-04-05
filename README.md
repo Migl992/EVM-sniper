@@ -36,3 +36,8 @@ This code is built to interact with any UNIv2 fork on any EVM-compatible blockch
 
 You can simply copy and paste and run the code in any python IDE, for example, Jupyter Notebook/Lab, or run it as Python script.
 
+## Disclaimer
+
+> **Important**: Some parts of the code will be commented out or modified. This is done intentionally to prevent users from simply copying and running the script without fully understanding how it works and the associated risks. If you understand what the script does, you will be able to make it work. This educational approach is designed to ensure that users are aware of the mechanics and potential risks involved in using this bot.
+
+
