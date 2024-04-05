@@ -1,6 +1,5 @@
 # EVM-sniper
-# Sniper Bot for EVMs and UniV2 Forks
-
+# Sniper Bot for UniV2 Forks on EVMs
 ## About The Project
 
 This project is a Sniper Bot designed to showcase the capabilities of interacting with EVMs and UniV2 forks. It's intended for educational purposes, allowing users to understand the mechanics behind automated trading and smart contract interactions. **Please note:** using this bot may result in financial loss. It's crucial to understand the risks involved and use it responsibly.
