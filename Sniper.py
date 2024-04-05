@@ -13,8 +13,8 @@ import requests
 #################################################
 #SETUP YOUR TELEGRAM BOT########################
 #################################################
-TOKEN = '7058355513:AAHZmhD8t3LkxUK9FhiJ4Q2Hbf5fFbeVXWA'
-CHAT_ID = '21870468'
+TOKEN = 'YourtelegramtokenID'
+CHAT_ID = 'YourchatID'
 bot = Bot(token=TOKEN)
 ##################################################
 ftm_ws = 'wss://wsapi.fantom.network/'
