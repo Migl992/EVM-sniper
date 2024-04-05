@@ -22,6 +22,7 @@ This code is built to interact with any UNIv2 fork on any EVM-compatible blockch
 - **Call the GoPlus API:** Checks if the token is flagged as a honeypot by the GoPlus API. This step is only possible if the smart contract is verified, which is not always the case.
 - **Deployer Flag Check:** Verifies if the contract deployer is flagged as a honeypot creator with goplus API.
 - **Token Purchase:** If all checks pass, the bot proceeds to buy the token with the specified amount.
+- **buy:** running the script will buy every new pair created that pass all the checks
 - **Telegram Notification:** All steps, including the purchase, are accompanied by a message sent to a Telegram bot, facilitating easy monitoring and management.
 
 
