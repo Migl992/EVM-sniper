@@ -18,7 +18,8 @@ This code is built to interact with any UNIv2 fork on any EVM-compatible blockch
 - **Listen for New Pair Creations:** Monitors the UNIv2 factory smart contract for the creation of new liquidity pairs.
 - **Check Token Pairing:** Verifies if the newly created token is paired with the native coin of the chain (e.g., wFTM for Fantom).
 - **Liquidity Check:** Assesses the liquidity of the new pair, allowing users to specify a minimum amount of the native coin (e.g., FTM) that must be present for the pair to pass the check.
-- **Honeypot/Buy-Sell Tax/Slippage Check:** Simulates transactions on the chain interacting with a specific smart contract, assessing the risk of honeypot, buy-sell tax, and slippage. This step is crucial for identifying potential scams.(some scam token can bypass this check)
+- **Honeypot/Buy-Sell Tax/Slippage Check:** Simulates transactions on the chain interacting with a specific smart contract, assessing the risk of honeypot, buy-sell tax, and slippage. This step is crucial for identifying potential scams.(some scam token can bypass this check) find the addresses here: https://github.com/valamidev/web3-defi-honeypot-and-slippage-checker or deploy if not present in other chains.
+I already deployed on degenchain: 0x545F04f91DcF480C78B103d52AFdBdd0F091ac56 or zora: 0x872C0a66d92465Ebc2e38cb78a82305B275baCa9
 - **Call the GoPlus API:** Checks if the token is flagged as a honeypot by the GoPlus API. This step is only possible if the smart contract is verified, which is not always the case.
 - **Deployer Flag Check:** Verifies if the contract deployer is flagged as a honeypot creator with goplus API.
 - **Token Purchase:** If all checks pass, the bot proceeds to buy the token with the specified amount.
